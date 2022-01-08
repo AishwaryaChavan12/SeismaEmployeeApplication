@@ -1,0 +1,21 @@
+tax:
+  rates:
+    - min: 0
+      max: 18200
+      offset: 0
+      cents: 0.00
+    - min: 18201
+      max: 37000
+      cents: 0.19
+      offset: 0
+    - min: 37001
+      max: 87000
+      cents: 0.325
+      offset: 3572
+    - min: 87001
+      max: 180000
+      cents: 0.37
+      offset: 19822
+    - min: 180001
+      cents: 0.45
+      offset: 54232
